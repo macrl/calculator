@@ -1,0 +1,15 @@
+b1c2c8,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716268,,200
+a198c9,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716271,,200
+b2a54a,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716276,,200
+9d1007,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716336,,200
+4b8374,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716355,,200
+12ef48,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716404,,200
+baa27e,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716426,,200
+b97bc8,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716450,,200
+c3e14f,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716521,,200
+9c911d,127.0.0.1,GET,http://192.168.1.14:801/calculatrice,1623716565,,200
+329cf4,127.0.0.1,POST,http://192.168.1.14:801/calculatrice/traitement,1623716845,,200
+e58e78,127.0.0.1,OPTIONS,http://192.168.1.14:801/calculatrice/traitement-api,1623717086,,201
+148fc1,127.0.0.1,POST,http://192.168.1.14:801/calculatrice/traitement-api,1623717086,,201
+44bbf3,127.0.0.1,OPTIONS,http://192.168.1.14:801/calculatrice/traitement-api,1623717345,,201
+285e42,127.0.0.1,POST,http://192.168.1.14:801/calculatrice/traitement-api,1623717345,,201

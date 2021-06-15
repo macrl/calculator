@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CalculatriceController!{% endblock %}
+
+{% block body %}
+
+        <div class="container">
+            {% include './components/header.html.twig' %}
+        <div style="padding-top: 90px;">
+        <div style="margin: auto; width:426px; border-radius: 5px; border: 1px solid silver; padding-top: 4px; ; padding-bottom: 4px;">
+        <!--<legend>
+            <h3 class="blueRedspher">{{ title3 }}</h3>
+        </legend>-->
+
+        <div id="blocRes">
+                <div style="width:410px; height:30px;" id="operation"></div>
+                <div><input id="res" value="0" type="text" disabled></div>
+        </div>
+        <div style="margin-top:10px">
+            <button value="7" class="btn chiffre">7</button>
+            <button value="8" class="btn chiffre">8</button>
+            <button value="9" class="btn chiffre">9</button>
+            <button value="/" class="btn operator">/</button>
+        </div>
+        <div style="margin-top:10px">
+            <button value="4" class="btn chiffre">4</button>
+            <button value="5" class="btn chiffre">5</button>
+            <button value="6" class="btn chiffre">6</button>
+            <button value="*" class="btn operator">*</button>
+        </div>
+        <div style="margin-top:10px">
+            <button value="1" class="btn chiffre">1</button>
+            <button value="2" class="btn chiffre">2</button>
+            <button value="3" class="btn chiffre">3</button>
+            <button value="-" class="btn operator">-</button>
+        </div>
+        <div style="margin-top:10px">
+            <button value="0" class="btn chiffre">0</button>
+            <button value="." class="btn chiffre">.</button>
+            <button value="ac" class="btn operator clear">AC</button>
+            <button value="+" class="btn operator">+</button>
+        </div>
+        <div style="margin-top:10px">
+            <button value="=" class="btn egal">=</button>
+        </div>
+        </div>
+        </div>
+            {% include './components/footer.html.twig' %}
+        </div>
+
+{% endblock %}
+{% block javascripts2 %}
+    <script src="{{ asset('js/script.js') }}"></script>
+{% endblock %}

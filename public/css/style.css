@@ -1,0 +1,95 @@
+.container{
+    text-align:center;
+    /*padding-top: 20px;*/
+}
+.container2{
+    width: 450px; 
+    height: 60px;
+}
+header{
+    margin-top:0;
+    width: 100%; 
+    border :1px solid skyblue; 
+    border-radius: 5px;
+    background: linear-gradient(violet, white);
+    position:absolute;
+}
+.blueRedspher{
+    color: #1E4664;
+}
+.redRedspher{
+    color: #FF003B;
+}
+.greenRedspher{
+    color: #1DF41B;
+}
+.skyblueRedspher{
+    color: #00C3FF;
+}
+.orangeRedspher{
+    color: orange;
+}
+.btn{
+    width:100px;
+    height: 50px;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    /*background: hsl(340deg 100% 32%);*/
+    outline-offset: 4px;
+    border:lightslategray 1px solid;
+    font-weight: bold;
+}
+.btn.egal{
+    width:415px;
+    height:50px;
+    background-color: #C0C0C0;
+    /*color: white;*/
+}
+.btn.clear{
+    background-color:tomato;
+    border: orangered 1px solid;
+}
+#res{
+    width:406px;
+    height: 60px;
+    border: 0; 
+    background-color: transparent; 
+    color:violet;
+    text-align: right;
+    font-size: 30px;
+}
+#blocRes{
+    border:silver 0.3px solid;
+    background-color:lightcyan;
+    border: mediumaquamarine 1px solid;
+    width:406px; 
+    height:80px;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.chiffre{
+  background-color:#F0F8FF;
+}
+.operator{
+  background-color:#C0C0C0;
+}
+
+footer{
+    background:black;
+    color:white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:100px;
+    border-radius: 5px;
+}
+
+
+
+
